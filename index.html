@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ChessX Litepaper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,7 +14,7 @@
   <!-- LEFT SIDEBAR -->
   <aside class="sidebar">
     <div class="sidebar-logo">
-      <span class="sidebar-logo-icon">♟</span>
+      <img src="images/logo-game.jpg" alt="ChessX" class="sidebar-logo-img" />
       <span>ChessX</span>
     </div>
     <nav class="sidebar-nav">
@@ -27,12 +30,17 @@
   <!-- MAIN CONTENT -->
   <main class="content">
 
+    <!-- OVERVIEW -->
     <section id="overview">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>Overview</h1>
 
       <div class="callout">
-        This document describes the ChessX token model and game economy. It is subject to change as development progresses.
+        Please read our <a href="https://chessx.app/notice-and-disclaimer" target="_blank">Notice and Disclaimer</a> before reading this document. This litepaper is subject to change as development progresses.
+      </div>
+
+      <div class="callout">
+        ChessX is free to play with no staking or wagering of money or money's worth.
       </div>
 
       <p>ChessX is a <strong>free-to-play mobile chess app</strong> that turns traditional chess into a lifelong learning platform with light blockchain rewards — without becoming another failed play-to-earn casino.</p>
@@ -44,23 +52,41 @@
         <li>A single fungible token (<strong>$CHX</strong>) that rewards real engagement</li>
       </ul>
 
+      <div class="screenshot-row">
+        <img src="images/alpha-image-1.avif" alt="ChessX alpha screenshot 1" />
+        <img src="images/alpha-image-3.avif" alt="ChessX alpha screenshot 2" />
+        <img src="images/alpha-image-4.avif" alt="ChessX alpha screenshot 3" />
+        <img src="images/alpha-image-5.avif" alt="ChessX alpha screenshot 4" />
+        <img src="images/alpha-image-6.avif" alt="ChessX alpha screenshot 5" />
+      </div>
+      <p class="caption">Alpha screenshots</p>
+
       <h2>The Flywheel</h2>
       <div class="flywheel">
         Engagement → Gems → $CHX + loyalty → higher retention → more fiat upgrades → buyback &amp; burn → token value → more players
       </div>
 
       <p>No hype, no "moon" — just a clear, sustainable economy that actually teaches a skill.</p>
+
+      <div class="page-nav">
+        <div></div>
+        <a href="#core-loop" class="page-nav-next">
+          <span class="page-nav-label">Next</span>
+          <span class="page-nav-title">Core Loop</span>
+        </a>
+      </div>
     </section>
 
     <hr />
 
+    <!-- CORE LOOP -->
     <section id="core-loop">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>Core Loop</h1>
 
       <p>Every meaningful action in ChessX earns <strong>Gems</strong> instantly. Gems are capped daily and weekly — no infinite farming.</p>
 
-      <h2>Play & Earn Gems</h2>
+      <h2>Play &amp; Earn Gems</h2>
 
       <table>
         <thead>
@@ -78,15 +104,27 @@
       <p>At the end of each month, all unspent Gems <strong>auto-convert</strong> into $CHX and loyalty points.</p>
 
       <h2>$CHX → Value</h2>
-      <p>Every fiat upgrade fee triggers an <strong>automatic buyback and burn</strong> of $CHX — the same Hyperliquid-style mechanism. Loyalty points from Gems can also be staked for small $CHX yield or used to enter exclusive tournaments, creating continuous demand.</p>
+      <p>Every fiat upgrade fee triggers an <strong>automatic buyback and burn</strong> of $CHX. Loyalty points from Gems can be staked for small $CHX yield or used to enter exclusive tournaments, creating continuous demand.</p>
 
       <div class="callout">
         Chess cannot be "won" by cheating for rewards because rewards are <strong>engagement-based, not win-based</strong>.
+      </div>
+
+      <div class="page-nav">
+        <a href="#overview" class="page-nav-prev">
+          <span class="page-nav-label">Previous</span>
+          <span class="page-nav-title">Overview</span>
+        </a>
+        <a href="#tokenomics" class="page-nav-next">
+          <span class="page-nav-label">Next</span>
+          <span class="page-nav-title">Tokenomics</span>
+        </a>
       </div>
     </section>
 
     <hr />
 
+    <!-- TOKENOMICS -->
     <section id="tokenomics">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>Tokenomics</h1>
@@ -102,7 +140,6 @@
       </table>
 
       <h2>Allocation</h2>
-
       <table>
         <thead>
           <tr><th>Bucket</th><th>%</th><th>Tokens</th><th>Vesting</th><th>Purpose</th></tr>
@@ -121,10 +158,22 @@
       <div class="callout">
         AI coach strength is tied <strong>70% to actual learning progress</strong> (puzzle accuracy, time spent studying openings) and only 30% to money spent — whales cannot buy their way to the top.
       </div>
+
+      <div class="page-nav">
+        <a href="#core-loop" class="page-nav-prev">
+          <span class="page-nav-label">Previous</span>
+          <span class="page-nav-title">Core Loop</span>
+        </a>
+        <a href="#token-utility" class="page-nav-next">
+          <span class="page-nav-label">Next</span>
+          <span class="page-nav-title">Token Utility</span>
+        </a>
+      </div>
     </section>
 
     <hr />
 
+    <!-- TOKEN UTILITY -->
     <section id="token-utility">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>Token Utility</h1>
@@ -144,18 +193,29 @@
           <tr><td>Gem Top-up</td><td>Small $CHX → Gem conversion if you're just 50 Gems short of a milestone</td><td>Convenience</td></tr>
         </tbody>
       </table>
+
+      <div class="page-nav">
+        <a href="#tokenomics" class="page-nav-prev">
+          <span class="page-nav-label">Previous</span>
+          <span class="page-nav-title">Tokenomics</span>
+        </a>
+        <a href="#nfts" class="page-nav-next">
+          <span class="page-nav-label">Next</span>
+          <span class="page-nav-title">NFT Chess Pieces</span>
+        </a>
+      </div>
     </section>
 
     <hr />
 
+    <!-- NFTs -->
     <section id="nfts">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>NFT Chess Pieces</h1>
 
-      <p><strong>NFTs give zero gameplay advantage.</strong> They're collectible chess pieces and AI companions you collect because it feels good — with a light tie-in to $CHX so they're not dead weight. All on Polygon (ERC-721), earnable through pure play.</p>
+      <p><strong>NFT chess pieces</strong> give zero gameplay advantage. They're collectible chess pieces and AI companions you collect because it feels good — with a light tie-in to $CHX. All on Polygon (ERC-721), earnable through pure play.</p>
 
       <h2>NFT Tiers</h2>
-
       <table>
         <thead>
           <tr><th>Tier</th><th>Supply</th><th>Cost</th><th>What You Get</th></tr>
@@ -177,7 +237,6 @@
       </ul>
 
       <h2>NFT Utility</h2>
-
       <table>
         <thead>
           <tr><th>Use Case</th><th>How It Works</th><th>Why It Feels Cool</th></tr>
@@ -191,17 +250,29 @@
           <tr><td>Gifting / Trading</td><td>Send to friends or trade freely</td><td>Community &amp; virality</td></tr>
         </tbody>
       </table>
+
+      <div class="page-nav">
+        <a href="#token-utility" class="page-nav-prev">
+          <span class="page-nav-label">Previous</span>
+          <span class="page-nav-title">Token Utility</span>
+        </a>
+        <a href="#differentiation" class="page-nav-next">
+          <span class="page-nav-label">Next</span>
+          <span class="page-nav-title">Why ChessX is Different</span>
+        </a>
+      </div>
     </section>
 
     <hr />
 
+    <!-- DIFFERENTIATION -->
     <section id="differentiation">
       <p class="section-label">CHESSX LITEPAPER</p>
       <h1>Why ChessX is Different</h1>
 
       <h2>Anti-Ponzi Design</h2>
       <ul>
-        <li>Chess cannot be "won" by cheating for rewards because rewards are <strong>engagement-based, not win-based</strong></li>
+        <li>Chess cannot be "won" by cheating for rewards — rewards are <strong>engagement-based, not win-based</strong></li>
         <li>The game remains <strong>permanently free</strong> for pure learners — no paywall on basic play or AI training</li>
         <li>NFTs are optional vanity — they never give gameplay advantage</li>
         <li>Revenue is real (fiat from optional upgrades + cosmetics), not circular token selling</li>
@@ -215,6 +286,14 @@
       <div class="callout">
         No infinite printing. No win-based rewards. Every number is built to survive audits and grant applications.
       </div>
+
+      <div class="page-nav">
+        <a href="#nfts" class="page-nav-prev">
+          <span class="page-nav-label">Previous</span>
+          <span class="page-nav-title">NFT Chess Pieces</span>
+        </a>
+        <div></div>
+      </div>
     </section>
 
     <div class="page-footer">
@@ -225,13 +304,12 @@
   </main>
 
   <script>
-    // Highlight active nav link on scroll
     const sections = document.querySelectorAll('section[id]');
     const links = document.querySelectorAll('.nav-link');
     window.addEventListener('scroll', () => {
       let current = '';
       sections.forEach(s => {
-        if (window.scrollY >= s.offsetTop - 80) current = s.id;
+        if (window.scrollY >= s.offsetTop - 100) current = s.id;
       });
       links.forEach(l => {
         l.classList.toggle('active', l.getAttribute('href') === '#' + current);
