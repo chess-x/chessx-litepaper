@@ -190,7 +190,6 @@ hr {
   border-radius: 8px;
   border: 1px solid var(--border);
   display: block;
-  background: #000000;
 }
 
 .caption {
