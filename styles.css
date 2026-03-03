@@ -173,18 +173,14 @@ hr {
 
 /* ── SCREENSHOTS ─────────────────────────── */
 .screenshot-row {
-  display: flex;
-  gap: 8px;
   margin: 24px 0 6px;
-  overflow-x: auto;
 }
 
 .screenshot-row img {
-  height: 160px;
-  width: auto;
+  width: 100%;
   border-radius: 8px;
   border: 1px solid var(--border);
-  flex-shrink: 0;
+  display: block;
 }
 
 .caption {

@@ -1,6 +1,6 @@
 # Core Loop
 
-## Play Chess → Earn Gems → Convert to $CHX
+## Play Chess → Earn Gems → Convert to $LRN
 
 Every meaningful action in ChessX earns Gems instantly:
 
@@ -12,7 +12,7 @@ Every meaningful action in ChessX earns Gems instantly:
 
 Gems are **capped daily and weekly** — no infinite farming.
 
-At the end of each month, all unspent Gems **auto-convert** into $CHX + loyalty points.
+At the end of each month, all unspent Gems **auto-convert** into $LRN + loyalty points.
 
 Weekends feature a **2× multiplier** to drive retention spikes.
 

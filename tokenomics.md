@@ -5,9 +5,9 @@
 | | |
 |---|---|
 | **Name** | ChessX |
-| **Ticker** | $CHX |
+| **Ticker** | $LRN |
 | **Chain** | Polygon (mobile players hate gas fees) |
-| **Max Supply** | 1,000,000,000 $CHX — no mint function after launch |
+| **Max Supply** | 1,000,000,000 $LRN — no mint function after launch |
 
 ## Allocation
 
@@ -23,7 +23,7 @@
 
 ## Why the Token Has Value
 
-- **Real buy pressure** from in-game progression: players pay fiat or $CHX to unlock higher levels and stronger AI coaches. AI coach strength is tied **70% to actual learning progress** and only 30% to money spent — whales cannot buy their way to the top.
-- Every fiat upgrade fee triggers an **automatic buyback + burn** of $CHX (Hyperliquid-style mechanism).
-- Loyalty points from Gems can be staked for $CHX yield or used to enter exclusive tournaments — creating continuous demand.
+- **Real buy pressure** from in-game progression: players pay fiat or $LRN to unlock higher levels and stronger AI coaches. AI coach strength is tied **70% to actual learning progress** and only 30% to money spent — whales cannot buy their way to the top.
+- Every fiat upgrade fee triggers an **automatic buyback + burn** of $LRN (Hyperliquid-style mechanism).
+- Loyalty points from Gems can be staked for $LRN yield or used to enter exclusive tournaments — creating continuous demand.
 - Total supply is **fixed at 1 billion** with aggressive vesting and built-in deflation via burns.
