@@ -459,6 +459,11 @@
     function toggleMobileMenu() {
       document.getElementById('mobile-nav').classList.toggle('open');
     }
+
+    // Collapse mobile nav on scroll
+    window.addEventListener('scroll', function() {
+      document.getElementById('mobile-nav').classList.remove('open');
+    }, { passive: true });
     function mobileNavClick(el) {
       document.getElementById('mobile-nav').classList.remove('open');
       scrollTo(el.dataset.target);

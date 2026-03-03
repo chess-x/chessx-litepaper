@@ -415,10 +415,11 @@ tr:hover td { background: #fafafa; }
   /* Screenshot fits width */
   .screenshot-row img { max-width: 100%; }
 
-  /* Page nav stacks */
-  .page-nav { flex-direction: column; gap: 10px; }
+  /* Page nav: side by side, compact */
+  .page-nav { flex-direction: row; gap: 10px; }
+  .page-nav-prev, .page-nav-next { min-width: unset; width: auto; flex: 1; padding: 10px 14px; }
   .page-nav-next { margin-left: 0; }
-  .page-nav-prev, .page-nav-next { min-width: unset; width: 100%; }
+  .page-nav-title { font-size: 0.8rem; }
 
   /* Callout text wraps */
   .callout { font-size: 0.82rem; }
