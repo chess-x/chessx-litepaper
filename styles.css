@@ -376,7 +376,7 @@ tr:hover td { background: #fafafa; }
     max-width: 100%;
   }
 
-  td, th { white-space: nowrap; }
+  td, th { white-space: nowrap; font-size: 0.875rem; }
 
   /* Flywheel wraps instead of overflowing */
   .flywheel { font-size: 0.8rem; word-break: break-word; white-space: normal; }
