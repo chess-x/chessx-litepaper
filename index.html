@@ -12,6 +12,23 @@
 </head>
 <body>
 
+  <!-- MOBILE HEADER -->
+  <header class="mobile-header">
+    <div class="mobile-logo">
+      <img src="images/logo-game.jpg" alt="ChessX" />
+      <span>ChessX</span>
+    </div>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="javascript:void(0)" data-target="overview" onclick="mobileNavClick(this)">Overview</a>
+    <a href="javascript:void(0)" data-target="core-loop" onclick="mobileNavClick(this)">Core Loop</a>
+    <a href="javascript:void(0)" data-target="tokenomics" onclick="mobileNavClick(this)">Tokenomics</a>
+    <a href="javascript:void(0)" data-target="token-utility" onclick="mobileNavClick(this)">Token Utility</a>
+    <a href="javascript:void(0)" data-target="nfts" onclick="mobileNavClick(this)">NFT Chess Pieces</a>
+    <a href="javascript:void(0)" data-target="differentiation" onclick="mobileNavClick(this)">Why ChessX is Different</a>
+  </nav>
+
   <!-- LEFT SIDEBAR -->
   <aside class="sidebar">
     <div class="sidebar-logo">
@@ -301,6 +318,14 @@
   </main>
 
   <script>
+    function toggleMobileMenu() {
+      document.getElementById('mobile-nav').classList.toggle('open');
+    }
+    function mobileNavClick(el) {
+      document.getElementById('mobile-nav').classList.remove('open');
+      scrollTo(el.dataset.target);
+    }
+
     // Force scroll to top on load (fixes Safari scroll restoration)
     if (history.scrollRestoration) history.scrollRestoration = 'manual';
     window.addEventListener('pageshow', function() {
