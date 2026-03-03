@@ -387,6 +387,8 @@ tr:hover td { background: #fafafa; }
   .sidebar { display: none; }
   .mobile-header { display: flex; }
 
+  section { scroll-margin-top: 56px; }
+
   .content {
     margin-left: 0;
     padding: 72px 20px 60px;
