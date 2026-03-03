@@ -282,11 +282,6 @@ tr:hover td { background: #fafafa; }
 
 .partner {
   padding: 16px 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.partner:last-child {
-  border-bottom: none;
 }
 
 .partner h3 {
