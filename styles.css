@@ -52,6 +52,15 @@ a:hover { text-decoration: underline; }
   margin-bottom: 12px;
 }
 
+.sidebar-logo a,
+.mobile-logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
 .sidebar-logo-img {
   width: 32px;
   height: 32px;
